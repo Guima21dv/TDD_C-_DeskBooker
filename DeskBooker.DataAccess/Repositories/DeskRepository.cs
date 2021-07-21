@@ -17,5 +17,10 @@ namespace DeskBooker.DataAccess.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public IEnumerable<Desk> GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
