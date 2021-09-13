@@ -27,6 +27,8 @@ namespace DeskBooker.Web.Tests.Pages
             bookDeskModel.OnPost();
 
             //Assert
+            processorMock.Verify(x => x.BookDesk(bookDeskModel.DeskBookingRequest),
+                Times.Once);
 
         }
     }
